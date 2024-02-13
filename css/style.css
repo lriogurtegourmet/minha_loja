@@ -20,7 +20,7 @@ header{
     border: 1px solid black;
     justify-content: space-around;
     display: flex;
-    padding: 30px;
+    padding: 20px;
 }
 
 .logo{
@@ -41,15 +41,21 @@ header{
     font-weight: bold;
     color: #fff;
     text-decoration: none;
-    padding: 30px;
+    padding: 10px;
+}
+.destaque{
+    background-color:#FF0000;
+    border-radius: 10px;
+    
+
 }
 
 .descricao{
     border: 1px solid black;
     position: relative;
     top:300px;
-    font-size: 40px;
-    text-align:center;
+    font-size: 50px;
+    text-align:right;
 }
 
 
