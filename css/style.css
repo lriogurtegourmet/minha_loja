@@ -1,11 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans';
 }
 
 header{
-    
-    height: 600px;
+    height: 700px;
     border: 1px solid black;
     background-image: url(../img/morango-respingo-com-leite-ou-iogurte.png);
     background-size: cover;
@@ -13,32 +13,43 @@ header{
     background-size: 50%;
     background-repeat: no-repeat;
     background-color: #F3C2C6;
+    color: #fff;
 }
 
 .cabeca{
+    border: 1px solid black;
     justify-content: space-around;
     display: flex;
+    padding: 30px;
 }
 
 .logo{
     font-weight: bold;
+    font-size: 30px;
     border: 1px solid black;
+    display: flex;
+    align-items: center;
 }
 
 #menu{
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    
 }
 #menu a{
+    font-weight: bold;
+    color: #fff;
     text-decoration: none;
-    padding: 10px;
+    padding: 30px;
 }
 
 .descricao{
     border: 1px solid black;
     position: relative;
-    top:400px;
+    top:300px;
     font-size: 40px;
-    text-align: center;
+    text-align:center;
 }
 
 
