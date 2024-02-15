@@ -50,14 +50,26 @@ header{
 
 }
 
-.descricao{
+.descricao h3{
     border: 1px solid black;
     position: relative;
+    font-size: 60px;
     top:300px;
-    font-size: 50px;
     text-align:right;
 }
 
+div .container-morango{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.carousel-inner{
+    height: 600px;
+    width: 300px;
+    
+}
 
 
 

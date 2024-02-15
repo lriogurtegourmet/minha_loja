@@ -27,7 +27,49 @@
        </div>
     </header>
     <main>
-        <button type="button" class="btn btn-primary">Primary</button>
+        <!--<button type="button" class="btn btn-primary">Primary</button>-->
+
+        <!--inicio indicadores pra navegar no slides do carrosel-->
+       <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+         <!--fim indicadores pra navegar no slides do carrosel-->
+
+          <!--inicio slides do carrosel-->
+          <div class="container">
+            <div class="row justify-content-center">
+                <div class="container-morango">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/iogurte-de-morango-1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/iogurte_de_morango2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Iogurte-com-Morango3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--fim slides do carrosel-->
+
+         <!--inicio anterior e proximo slides do carrosel-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+           <!--fim anterior e proximo slides do carrosel-->
+      </div>
+        
 
     </main>
     <footer>
