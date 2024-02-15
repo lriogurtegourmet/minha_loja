@@ -9,4 +9,4 @@ function menu(){
         menu.style.display = "none"
 }
 
-alert("EM CONSTRUÇÃO! :D")
+alert("página em construção! :D")

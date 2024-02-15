@@ -6,15 +6,15 @@
 /*area do cabeçalho*/
 header {
     min-height: 700px; /* Use min-height em vez de height */
-    border: 1px solid black;
     background-image: url(../img/morango-respingo-com-leite-ou-iogurte.png);
     background-repeat: no-repeat;
     background-color: #F3C2C6;
     color: #fff;
+    /*background-size: contain; 
+    background-position: center; */
 }
 
 .cabeca {
-    border: 1px solid black;
     justify-content: space-around;
     display: flex;
     padding: 30px;
@@ -23,13 +23,11 @@ header {
 .logo {
     font-weight: bold;
     font-size: 30px;
-    border: 1px solid black;
     display: flex;
     align-items: center;
 }
 
 #menu_desktop {
-    border: 1px solid black;
     display: flex;
     justify-content: center;
 }
@@ -45,7 +43,9 @@ header {
     background-color: aliceblue;
     width: 50px;
     height: 12px;
-    margin: 4px;
+    margin-top: 5px;
+    border-radius: 5px;
+    
 }
 
 .icone{
@@ -54,20 +54,33 @@ header {
     width: 50px;
     cursor: pointer;
     display: none;
+    
 }
 .para-baixo{
-    background-color:#F3C2C6;
-   
-    width: 100%;
+    background-color:#ff6b81;
+    padding-left: 10px;
+    position:absolute;
     display: none;
+    top: 100px;
+    right: 20px;
+    z-index: 1;
+    height: 300px;
+    max-width: 300px;
+    float:left;
+    border-radius: 10px;
+    opacity: 0.6;
 }
 .para-baixo a {
-    padding: 20px;
     color: #fff;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     text-decoration: none;
     font-weight: bold;
     display: flex;
     flex-direction: column;
+    width: 150px;
+    
 }
 
 .destaque {
@@ -77,11 +90,16 @@ header {
 
 
 .descricao h3{
-    border: 1px solid black;
     position: relative;
     font-size: 60px;
     top:300px;
-    text-align:right;
+    text-align:center;
+}
+
+.descricao{
+    position: absolute;
+    text-align:center;
+    left: 500px;
 }
 
 

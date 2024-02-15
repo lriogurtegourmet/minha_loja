@@ -1,5 +1,73 @@
 @media screen and (max-width: 767px) {
 
+
+    header {
+        min-height: 700px; /* Use min-height em vez de height */
+        background-image: url(../img/morango-respingo-com-leite-ou-iogurte.png);
+        background-repeat: no-repeat;
+        background-color: #F3C2C6;
+        color: #fff;
+        background-size: contain; /* Torna a imagem de fundo responsiva */
+        background-position: center; 
+    }
+    .descricao h3{
+        position: absolute;
+        padding-top: 50px;
+        right: 100px;
+        font-size: 1.5rem;
+        display: none;
+        
+    }
+
+    #menu_desktop {
+        display: none;
+    }
+
+    .icone {
+        display: block;
+        height: 50px;
+        width: 50px;
+        background-color: #F3C2C6;
+        cursor: pointer;
+    }
+
+    #menu-mobile {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .cabeca{
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+    .logo{
+        padding-top:50px;
+        font-size: 45px;
+        margin: auto;
+    }
+    .destaque {
+        background-color: #FF0000;
+        width: 30%;
+    }
+}
+
+
+@media screen and (max-width:640px) {
+
+    header {
+        min-height: 700px; /* Use min-height em vez de height */
+        background-image: url(../img/morango-respingo-com-leite-ou-iogurte.png);
+        background-repeat: no-repeat;
+        background-color: #F3C2C6;
+        color: #fff;
+        background-size: contain; /* Torna a imagem de fundo responsiva */
+        background-position: center; 
+    }
+    .descricao{
+        position: absolute;
+        text-align:center;
+        display: none;
+    }
     #menu_desktop {
         display: none;
     }
