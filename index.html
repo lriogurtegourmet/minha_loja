@@ -6,6 +6,7 @@
     <title>L&R Iogurte Gourmet</title>
     <link rel="shortcut icon" href="img/LR.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
     <link rel="stylesheet" href="css/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +16,14 @@
     <header>
         <div class="cabeca">
             <span class="logo">L&R</span>
-            <div id="menu">
+    
+            <div onclick="menu()" class="icone">
+                <div class="barra"></div>
+                <div class="barra"></div>
+                <div class="barra"></div>
+            </div>
+    
+            <div id="menu_desktop">
                 <a href="#" class="destaque">Faça seu pedido</a>
                 <a href="#">Catálogo</a>
                 <a href="#">Contato</a>
@@ -26,6 +34,14 @@
         <h3>IOGURTE GOURMET</h3>
        </div>
     </header>
+    
+    <div id="menu-mobile" class="para-baixo">
+        <a href="#" class="destaque">Faça seu pedido</a>
+        <a href="#">Catálogo</a>
+        <a href="#">Contato</a>
+    </div>
+    
+        
     <main>
         <!--<button type="button" class="btn btn-primary">Primary</button>-->
 

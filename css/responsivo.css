@@ -1,0 +1,33 @@
+@media screen and (max-width: 767px) {
+
+    #menu_desktop {
+        display: none;
+    }
+
+    .icone {
+        display: block;
+        height: 50px;
+        width: 50px;
+        background-color: #F3C2C6;
+        cursor: pointer;
+    }
+
+    #menu-mobile {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    .cabeca{
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+    .logo{
+        padding-top:50px;
+        font-size: 45px;
+        margin: auto;
+    }
+    .destaque {
+        background-color: #FF0000;
+        width: 30%;
+    }
+}

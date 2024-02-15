@@ -3,27 +3,24 @@
     padding: 0;
     font-family: 'Open Sans';
 }
-
-header{
-    height: 700px;
+/*area do cabeçalho*/
+header {
+    min-height: 700px; /* Use min-height em vez de height */
     border: 1px solid black;
     background-image: url(../img/morango-respingo-com-leite-ou-iogurte.png);
-    background-size: cover;
-    background-position: left center; 
-    background-size: 50%;
     background-repeat: no-repeat;
     background-color: #F3C2C6;
     color: #fff;
 }
 
-.cabeca{
+.cabeca {
     border: 1px solid black;
     justify-content: space-around;
     display: flex;
-    padding: 20px;
+    padding: 30px;
 }
 
-.logo{
+.logo {
     font-weight: bold;
     font-size: 30px;
     border: 1px solid black;
@@ -31,24 +28,53 @@ header{
     align-items: center;
 }
 
-#menu{
+#menu_desktop {
     border: 1px solid black;
     display: flex;
     justify-content: center;
-    
 }
-#menu a{
+
+#menu_desktop a {
     font-weight: bold;
     color: #fff;
     text-decoration: none;
     padding: 10px;
 }
-.destaque{
-    background-color:#FF0000;
-    border-radius: 10px;
-    
 
+.barra {
+    background-color: aliceblue;
+    width: 50px;
+    height: 12px;
+    margin: 4px;
 }
+
+.icone{
+
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    display: none;
+}
+.para-baixo{
+    background-color:#F3C2C6;
+   
+    width: 100%;
+    display: none;
+}
+.para-baixo a {
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.destaque {
+    background-color: #FF0000;
+    border-radius: 10px;
+}
+
 
 .descricao h3{
     border: 1px solid black;
@@ -58,6 +84,8 @@ header{
     text-align:right;
 }
 
+
+/*area do carrosel*/
 div .container-morango{
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
