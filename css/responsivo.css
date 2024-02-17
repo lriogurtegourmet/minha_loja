@@ -49,6 +49,16 @@
         background-color: #FF0000;
         width: 30%;
     }
+    .rede-sociais{
+        display: block;
+        text-align: center;
+    }
+    .sociais{
+        padding: 20px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 
@@ -97,5 +107,20 @@
     .destaque {
         background-color: #FF0000;
         width: 30%;
+    }
+    .rede-sociais{
+        display: block;
+        text-align: center;
+    }
+    .sociais{
+        padding: 20px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-sociais{
+        width: 60px;
+        align-self: center;
     }
 }
