@@ -110,37 +110,12 @@ div .container-morango{
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 .carousel-inner{
-    height: 600px;
     width: 300px;
 }
 
-/*Area social e footer*/
-.rede-sociais{
-    background-color: #FC9DBF;
-    height: 300px;
-    text-align:center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.sociais{
-    padding: 60px;
-}
-.img-sociais{
-    width: 70px;
-}
-footer{
-    background-color:#2D3436;
-    height: 70px;
-}
-footer p{
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
 
 /*Area dos Produtos*/
 
@@ -185,5 +160,30 @@ footer p{
      font-size: 18px;
      color: #7C7A7A;
  }
+
+ /*Area social e footer*/
+.rede-sociais{
+    background-color: #FC9DBF;
+    height: 300px;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sociais{
+    padding: 60px;
+}
+.img-sociais{
+    width: 70px;
+}
+footer{
+    background-color:#2D3436;
+    height: 70px;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
 
 
