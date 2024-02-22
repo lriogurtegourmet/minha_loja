@@ -69,6 +69,7 @@ header {
     float:left;
     border-radius: 10px;
     opacity: 0.6;
+    
 }
 .para-baixo a {
     color: #fff;
@@ -80,7 +81,7 @@ header {
     display: flex;
     flex-direction: column;
     width: 150px;
-    
+    text-align: center;
 }
 
 .destaque {
@@ -141,5 +142,48 @@ footer p{
     padding: 20px;
 }
 
+/*Area dos Produtos*/
+
+.produtos{
+    /*border: 2px solid black;*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.caixa-produtos{
+    /* border: 2px solid black;*/
+
+     display:flex;
+     flex-direction: column;
+     justify-content:center;
+     padding: 10px;
+ }
+
+ .caixa-imagem{
+    height: auto;
+    width: 250px;
+    display: flex;
+    align-items: center; 
+}
+
+.icone_produto{
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+}
+
+.caixa-texto{
+    text-align:center;
+}
+
+.caixa-texto p{
+    text-align:center;
+     margin-bottom: 15px;
+     font-weight: bold;
+     font-size: 18px;
+     color: #7C7A7A;
+ }
 
 
